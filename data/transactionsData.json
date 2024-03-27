@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "Starbucks",
+    "amount": 100,
+    "location": "Toronto, ON",
+    "date": "2024-03-01"
+  },
+  {
+    "id": 2,
+    "name": "Apple Store",
+    "amount": 150,
+    "location": "Vancouver, BC",
+    "date": "2024-03-05"
+  },
+  {
+    "id": 3,
+    "name": "Sephora",
+    "amount": 200,
+    "location": "Montreal, QC",
+    "date": "2024-03-10"
+  },
+  {
+    "id": 4,
+    "name": "Shoppers Drug Mart",
+    "amount": 120,
+    "location": "Calgary, AB",
+    "date": "2024-03-15"
+  },
+  {
+    "id": 5,
+    "name": "Pizza Hut",
+    "amount": 180,
+    "location": "Ottawa, ON",
+    "date": "2024-03-20"
+  },
+  {
+    "id": 6,
+    "name": "Cheesecake Factory",
+    "amount": 220,
+    "location": "Edmonton, AB",
+    "date": "2024-03-25"
+  },
+  {
+    "id": 7,
+    "name": "Nike",
+    "amount": 10,
+    "location": "Winnipeg, MB",
+    "date": "2024-03-30"
+  },
+  {
+    "id": 8,
+    "name": "Tim Hortons",
+    "amount": 1800,
+    "location": "Halifax, NS",
+    "date": "2024-04-04"
+  },
+  {
+    "id": 9,
+    "name": "Whole Foods",
+    "amount": 120,
+    "location": "Victoria, BC",
+    "date": "2024-04-09"
+  },
+  {
+    "id": 10,
+    "name": "Cineplex",
+    "amount": 300,
+    "location": "Quebec City, QC",
+    "date": "2024-04-14"
+  },
+  {
+    "id": 11,
+    "name": "McDonald's",
+    "amount": 90,
+    "location": "Regina, SK",
+    "date": "2024-04-19"
+  },
+  {
+    "id": 12,
+    "name": "Burger King",
+    "amount": 85,
+    "location": "Charlottetown, PE",
+    "date": "2024-04-24"
+  },
+  {
+    "id": 13,
+    "name": "Subway",
+    "amount": 75,
+    "location": "St. John's, NL",
+    "date": "2024-04-29"
+  },
+  {
+    "id": 14,
+    "name": "KFC",
+    "amount": 80,
+    "location": "Fredericton, NB",
+    "date": "2024-05-04"
+  },
+  {
+    "id": 15,
+    "name": "Domino's Pizza",
+    "amount": 110,
+    "location": "Whitehorse, YT",
+    "date": "2024-05-09"
+  }
+]
