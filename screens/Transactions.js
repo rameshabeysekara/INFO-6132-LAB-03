@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import {
   FlatList,
   StyleSheet,
@@ -8,10 +8,24 @@ import {
 } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import { FontAwesome } from "@expo/vector-icons";
-import transactionsData from "../data/transactionsData.json";
+import { getData } from "../firebase/firestoreFunctions";
 
 const Transactions = () => {
+  const [transactionsData, setTransactionsData] = useState([]);
   const navigation = useNavigation();
+
+  useEffect(() => {
+    const fetchTransactions = async () => {
+      const data = await getData(); // Fetch data from Firestore
+      setTransactionsData(data); // Update state with the fetched data
+    };
+
+    const unsubscribe = navigation.addListener("focus", () => {
+      fetchTransactions(); // Fetch data when the screen is focused
+    });
+
+    return unsubscribe; // Return the function to unsubscribe from the event
+  }, [navigation]);
 
   const renderItem = ({ item }) => (
     <TouchableOpacity
